@@ -1,57 +1,55 @@
 package interfaces;
 
-public class Student
-{
+public class Student {
 	
 	String name;
-
 	int studentAge;
-
 	String bestFriend;
-
 	int absent;
-
 	double gpa;
 
-
-	public Student()
-	{
+	public Student() {
+		
 		name = "Sam Jones";
 		studentAge = 15;
 		bestFriend = "Bob Smith";
 		absent = 0;
 		gpa = 0.0;	
+	
 	}
 	
 
-	public void setName(String xName)
-	{
+	public void setName(String xName) {
+		
 		name = xName;
+	
 	}
 
-	public int getAge()
-	{
+	public int getAge() {
+		
 		return studentAge;
+	
 	}
 	
-	public String getName()
-	{
+	public String getName() {
 
 		return name;
 	}
 	
-	public int getAabsent()
-	{
+	public int getAabsent() {
+		
 		return absent;
+	
 	}
 
-	public void outSick()
-	{
+	public void outSick() {
+		
 		absent++;
+	
 	}
 	
-	public String toString()
-	{
+	public String toString() {
+		
 		return "Student: " + name + " " + studentAge + " " + bestFriend + " " +  absent + " " +  gpa;
 		
 	}
