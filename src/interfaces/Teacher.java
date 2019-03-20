@@ -1,7 +1,6 @@
 package interfaces;
 
-public class Teacher
-{
+public class Teacher implements Person {
 	
 	String name;
 	int teacherAge;
