@@ -12,7 +12,6 @@ package maggieLab;
  * @author Laurie White
  * @version April 2012
  */
-
 public class Magpie2
 {
 	/**
